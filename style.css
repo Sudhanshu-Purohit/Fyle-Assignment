@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Nunito', sans-serif;
+}
+
+.search-bar {
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.search-input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.search-button {
+    padding: 8px 15px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.inner-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-details-container {
+    margin-bottom: 20px;
+}
+
+.user-details-container h2 {
+    text-align: center;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    height: 200px;
+    margin-right: 20px;
+    border: 2px solid rgba(0, 0, 0);
+    object-fit: cover;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.user-name {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.repositories-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+}
+
+.repo-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    gap: 10px;
+}
+
+.repo-name {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.repo-description {
+    color: #6c757d;
+}
+
+.repo-topics {
+    color: #007bff;
+}
+
+.pagination-container {
+    text-align: center;
+}
+
+.pagination-button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.pagination-button[disabled] {
+    cursor: not-allowed;
+}
+
+.loading-container {
+    text-align: center;
+    display: none;
+    margin-top: 50px;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
