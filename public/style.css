@@ -41,7 +41,10 @@ body {
 }
 
 .user-details-container {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
+    gap: 15px;
 }
 
 .user-details-container h2 {
@@ -54,6 +57,7 @@ body {
     border-radius: 20px;
     background-color: white;
     padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .user-avatar {
@@ -77,10 +81,30 @@ body {
     font-weight: bold;
 }
 
+.social-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+
 .repositories-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 60px;
+}
+
+.repo-search-container {
+    display: flex;
+}
+
+.repo-search-container input {
+    flex: 1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.repo-search-container button {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .repo-card {
@@ -92,6 +116,12 @@ body {
     margin-bottom: 15px;
     padding: 15px;
     gap: 10px;
+}
+
+.repo-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .repo-name {
