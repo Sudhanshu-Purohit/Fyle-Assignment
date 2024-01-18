@@ -24,8 +24,13 @@ git clone https://github.com/Sudhanshu-Purohit/Fyle-Assignment.git
 
 
 ## Screenshots
-![Screenshot (174)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/3dd230f3-6708-4059-a34f-3640a6a06c08)
+![Screenshot (178)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/21d576bd-1b1c-46da-ae74-68d31b5e0f2c)
 <br/> <br/> <br/> <br/> <br/>
-![Screenshot (176)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/47bef304-4881-4901-950f-b65fccbb116f)
+![Screenshot (179)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/d57f1ffb-558f-46d3-9818-56a6ac7b8fe8)
+
 <br/> <br/> <br/> <br/> <br/>
-![Screenshot (175)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/63ecf916-7078-4e6e-8ec9-eb4b8480cf19)
+![Screenshot (180)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/de6324eb-9777-4527-8904-85852bd153d0)
+<br/> <br/> <br/> <br/> <br/>
+![Screenshot (177)](https://github.com/Sudhanshu-Purohit/Fyle-Assignment/assets/97443705/7127549e-3c8e-4713-890d-5e483233973a)
+
+
