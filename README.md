@@ -13,6 +13,7 @@ This project is a simple web page that utilizes pure HTML, CSS, and JavaScript (
 5) Proper handling of edge cases for robust functionality.
 6) Users can search for repositories by name
 7) Link to particular repository
+8) Fully responsive
 
 ## How to Run the Project
 1) Clone the repository to your local machine:
